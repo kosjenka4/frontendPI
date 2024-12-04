@@ -3,15 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>LiberNoster</title>
 
       <!-- Bootstrap CSS -->
       <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body>
-    <!-- Your content goes here -->
+      <link rel="stylesheet" href="style.css"> 
 
-    <!-- Bootstrap JS and dependencies (optional) -->
+    </head>
+<body>
+    <div class="container welcome-section">
+        <h1>Dobrodosli na LiberNoster!</h1>
+        <div class="paragraph-container">
+            <p>LiberNoster je web aplikacija prvenstveno namijenjena osobnoj organizaciji knjiga i tekstova raznih formata na jednome mjestu. Pod razne formate podrazumijevamo fizičke knjige, e-knjige i, osobne ili preuzete PDF dokumente. Organizacija se postiže korištenjem funkcionalnosti za stvaranje personaliziranih kolekcija s jednostavnim dodavanjem i uklanjanjem stavki, te postavljanjem osobnih ciljeva. Također nudi manje individualistički pristup korištenja, onima koje to zanima, preko forumskih knjiških klubova. Aplikacija korisnicima omogućava pristup brojnim žanrovima i znanstvenim radovima zahvaljujući suradnji s raznim organizacijama tako da uvijek imaju željenu literaturu, bilo za rad, bilo za odmor.</p>
+        </div>
+        
+
+        <div class="row">
+            <div class="col">
+                <img src="styles/360_F_166550191_hEVqAvFjIbRMZNDTaBoi0j7fX7ynPS5x.jpg" alt="Image 1">
+            </div>
+            <div class="col">
+                <img src="styles/images.jpg" alt="Image 2">
+            </div>
+            <div class="col">
+                <img src="styles/watercolor-book-flowers-vector-47999852.jpg" alt="Image 3">
+            </div>
+        </div>
+
+        <button id="loginBtn" class="btn btn-primary mt-4" onclick="openLoginPopup()">Get Started</button>
+
+    </div>
+
+    <script src="script.js"></script>
+    <!-- Bootstrap JS and dependencies -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
