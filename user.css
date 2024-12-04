@@ -1,0 +1,157 @@
+
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Georgia, serif;
+            background-color: #f8f9fa;
+        }
+        
+        .section.profile-section {
+            display: flex;
+            width: 100%;
+            height: 70%;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        .section.navbar {
+            display: flex;
+            width: 100%;
+            height: 15%;
+            align-items: center;
+            justify-content: center;
+            background-color: #FFA500;
+            padding: 10px 0;
+        }
+
+        .section.footer{
+            display: flex;
+            width: 100%;
+            height: 15%;
+            align-items: center;
+            justify-content: flex-start;
+            background-color: #FFA500;
+            padding: 10px 0;
+        }
+        
+        .navbar {
+            display: flex;
+            width: 100%;
+            background-color: #FFD700;
+        }
+
+        .navbar button {
+            flex-grow: 1;
+            border: none;
+            background: none;
+            font-size: 24px;
+            cursor: pointer;
+            padding: 40px 0;
+            color: white;
+        }
+
+
+        .navbar button:first-child,
+        .navbar button:nth-child(3) {
+            flex-grow: 2;
+        }
+
+        .navbar button:hover {
+            background-color: #f5b133;
+        }
+
+        .profile-section {
+            text-align: center;
+            position: relative;
+        }
+
+        .profile-image {
+            background-color: #4682B4;
+            border-radius: 50%;
+            width: 300px;
+            height: 300px;
+            display: inline-block;
+            position: relative; 
+        }
+
+        .profile-image img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .edit-icon button{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background-color: #FF8C00;
+            color: white;
+            border-radius: 50%;
+            height: 50px;
+            width: 50px;
+            padding: 5px;
+            cursor: pointer;
+            text-align: center;
+            justify-items: auto;
+            font-size: 30px;
+        }
+        
+        .bio {
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #000;
+            border-radius: 5px;
+            font-size: xx-large;
+        }
+      
+        .bio-caption {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
+        .bio-edit {
+            margin-top: 10px;
+            padding: 5px;
+            width: 80%;
+            border: 1px solid #000;
+            border-radius: 5px;
+        }
+
+
+        .footer {
+            background-color: #4682B4;
+            width: 100%;
+            text-align: center;
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        .footer button{
+            background-color: #FF8C00;
+            border: round;
+            color: white;
+            padding: 40px 50px;
+            margin: 5px;
+            cursor: pointer;
+            font-size: xx-large;
+
+        }
+
+        button {
+            background-color: #FF8C00;
+            border: round;
+            color: white;
+            font-size: larger;
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+           
+        }
+       
+
+        button:hover {
+            background-color: #e96b17;
+        }
